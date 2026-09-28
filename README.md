@@ -31,6 +31,14 @@ revision_R1/code     additional analyses requested in review
 revision_R1/results  their aggregate outputs
 ```
 
+`pipeline` is the analysis as first submitted: it builds the analytic file,
+develops and evaluates the models, and produces Tables 1 to 3 and Figures 1 to 5.
+`revision_R1` holds the analyses added in response to peer review, one script per
+comment, and produces the calibration, precision-recall, sensitivity, subgroup and
+incremental-value results together with Figures 6 to 8 and the supplementary
+tables. The two are kept apart so that the originally reported results stay
+distinguishable from what was added later; nothing in `pipeline` was refitted.
+
 ## Running
 
 Python 3.11, `pip install -r requirements.txt`.
