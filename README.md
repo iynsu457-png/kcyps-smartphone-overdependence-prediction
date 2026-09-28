@@ -24,7 +24,7 @@ and run `pipeline/02_code/build_transitions.py` to construct the analytic file.
 ## Layout
 
 ```
-pipeline/01_data     variable list, SAPS banding reference
+pipeline/01_data     feature list, SAPS banding counts by grade
 pipeline/02_code     model pipeline, performance metrics, SHAP
 pipeline/03_results  reported aggregate results
 revision_R1/code     additional analyses requested in review
@@ -57,6 +57,14 @@ sensitivity, model and threshold selection, calibration and decision curves,
 precision-recall, incremental value over the SAPS score, data provenance,
 encoding, dimensionality reduction, sample size, learning curves, grouped
 importance, subgroup performance and participant flow.
+
+Some scripts consume intermediates written by others, so within `revision_R1`
+run `build_fullspectrum.py`, `performance_calibration.py` and
+`sensitivity_fullspectrum.py` before the scripts that depend on them
+(`sensitivity_fullspectrum.py`, `three_class_analysis.py` and `pr_analysis.py` need
+the first and third; `subgroup_fairness.py`, `transition_uncertainty.py`,
+`dim_reduction.py` and `sample_size_folds.py` need the second). The rest are
+independent.
 
 Seeds are fixed at 42. Results computed from stored predictions are
 deterministic; analyses that refit a model can differ slightly across library
