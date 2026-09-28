@@ -1,0 +1,25 @@
+# Participant-level data is never committed to this repository
+pipeline/01_data/raw/
+pipeline/01_data/transitions.pkl
+pipeline/01_data/test_predictions.csv
+*.sav
+*.pkl
+*.npy
+*.xlsx
+fs_test_probabilities.json
+
+# Script output
+_rerun/
+pipeline/_rerun/
+revision_R1/figures/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

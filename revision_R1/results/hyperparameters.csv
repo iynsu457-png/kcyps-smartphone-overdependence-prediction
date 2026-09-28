@@ -1,0 +1,38 @@
+classifier,parameter,search_range,selected
+XGBoost,n_estimators,integer 200-1200,458
+XGBoost,max_depth,integer 3-10,10
+XGBoost,learning_rate,"0.001-0.3, log",0.0131
+XGBoost,subsample,0.5-1.0,0.8698
+XGBoost,colsample_bytree,0.5-1.0,0.5084
+XGBoost,min_child_weight,integer 1-20,1
+XGBoost,gamma,0-5,1.38
+XGBoost,reg_alpha,"1e-8-10, log",0.0002684
+XGBoost,reg_lambda,"1e-8-10, log",0.0484
+LightGBM,n_estimators,integer 200-1200,952
+LightGBM,num_leaves,integer 15-255,201
+LightGBM,max_depth,integer -1-12,12
+LightGBM,learning_rate,"0.001-0.3, log",0.02187
+LightGBM,min_child_samples,integer 5-100,20
+LightGBM,subsample,0.5-1.0,0.9689
+LightGBM,colsample_bytree,0.5-1.0,0.5732
+LightGBM,reg_alpha,"1e-8-10, log",0.0004726
+LightGBM,reg_lambda,"1e-8-10, log",1.167e-05
+CatBoost,iterations,integer 200-1200,600
+CatBoost,depth,integer 4-10,10
+CatBoost,learning_rate,"0.001-0.3, log",0.03627
+CatBoost,l2_leaf_reg,1-10,6.623
+CatBoost,border_count,integer 32-255,133
+CatBoost,bagging_temperature,0-1,0.03433
+CatBoost,random_strength,0-10,1.202
+RandomForest,n_estimators,integer 200-800,707
+RandomForest,max_depth,integer 5-25,18
+RandomForest,min_samples_split,integer 2-30,8
+RandomForest,min_samples_leaf,integer 1-20,4
+RandomForest,max_features,0.1-1.0,0.1377
+ExtraTrees,n_estimators,integer 200-800,525
+ExtraTrees,max_depth,integer 5-25,23
+ExtraTrees,min_samples_split,integer 2-30,5
+ExtraTrees,min_samples_leaf,integer 1-20,8
+ExtraTrees,max_features,0.1-1.0,0.1832
+LogRegEN,C,"0.001-10, log",0.001021
+LogRegEN,l1_ratio,0-1,0.308

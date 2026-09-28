@@ -1,0 +1,12 @@
+pandas
+numpy
+scipy
+scikit-learn
+imbalanced-learn
+xgboost
+lightgbm
+catboost
+optuna
+shap
+matplotlib
+pyreadstat

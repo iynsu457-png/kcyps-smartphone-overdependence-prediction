@@ -1,0 +1,187 @@
+analysis,contrast,rho,lo,hi,saps_pct,design_pct,psychosocial_pct,n,group,label,rank,value
+F2_rank_agreement,G7->G8 vs G8->G9,0.9944899116765256,0.9925451746211814,0.9957864030467548,,,,,,,,
+F2_rank_agreement,G7->G8 vs G9->G10,0.9914107446722309,0.9893039461956082,0.9931934203062961,,,,,,,,
+F2_rank_agreement,G8->G9 vs G9->G10,0.9951381573616402,0.9930313588850175,0.9962725873105908,,,,,,,,
+F2_vs_pooled,G7->G8 vs pooled,0.9972449558382628,0.9954622802041974,0.9977311401020987,,,,,,,,
+F2_vs_pooled,G8->G9 vs pooled,0.9978932015233775,0.9969208329957053,0.9988655700510495,,,,,,,,
+F2_vs_pooled,G9->G10 vs pooled,0.996110525889312,0.995300218782919,0.99756907868082,,,,,,,,
+F3_shares,G7->G8,,,,28.261394500732422,6.475895404815674,65.26270294189453,765.0,,,,
+F3_shares,G8->G9,,,,28.421110153198242,2.7565927505493164,68.82229614257812,733.0,,,,
+F3_shares,G9->G10,,,,26.020334243774414,11.516397476196289,62.46327209472656,699.0,,,,
+F3_shares,pooled,,,,27.584428787231445,6.909757137298584,65.50581359863281,2197.0,,,,
+F1_group_importance,G7->G8,,,,,,,,Parental mediation,Caregiver smartphone use and dependence,1.0,0.6696571707725525
+F1_group_importance,G7->G8,,,,,,,,SAPS mean score,SAPS mean score,2.0,0.5216597318649292
+F1_group_importance,G7->G8,,,,,,,,Psychological well-being,Emotional and behavioral problems,3.0,0.4208720028400421
+F1_group_importance,G7->G8,,,,,,,,Parenting stress,Caregiver psychological traits,4.0,0.41148075461387634
+F1_group_importance,G7->G8,,,,,,,,Smartphone use,Academic engagement and achievement,5.0,0.4084974229335785
+F1_group_importance,G7->G8,,,,,,,,Prior high-risk,Prior high-risk,6.0,0.3906865119934082
+F1_group_importance,G7->G8,,,,,,,,Time use,Time use,7.0,0.32312241196632385
+F1_group_importance,G7->G8,,,,,,,,Wave,Wave,8.0,0.27825164794921875
+F1_group_importance,G7->G8,,,,,,,,Family relationship,Perceived parenting,9.0,0.26952534914016724
+F1_group_importance,G7->G8,,,,,,,,SAPS sum score,SAPS sum score,10.0,0.22198955714702606
+F1_group_importance,G7->G8,,,,,,,,SAPS tolerance,SAPS tolerance,11.0,0.18658141791820526
+F1_group_importance,G7->G8,,,,,,,,Aggression,Grit,12.0,0.18275336921215057
+F1_group_importance,G7->G8,,,,,,,,Device access,Smartphone use by purpose,13.0,0.1730998307466507
+F1_group_importance,G7->G8,,,,,,,,Baseline SAPS,Baseline SAPS,14.0,0.15837445855140686
+F1_group_importance,G7->G8,,,,,,,,Self-control,Creative personality,15.0,0.1506994664669037
+F1_group_importance,G7->G8,,,,,,,,School engagement,School life and relationships,16.0,0.14116443693637848
+F1_group_importance,G7->G8,,,,,,,,Parent school involvement,Parental educational attainment,17.0,0.13941039144992828
+F1_group_importance,G7->G8,,,,,,,,Daily smartphone use,SAPS adaptive-function disturbance,18.0,0.13749587535858154
+F1_group_importance,G7->G8,,,,,,,,Cohort,Cohort,19.0,0.12485571950674057
+F1_group_importance,G7->G8,,,,,,,,SAPS withdrawal,SAPS withdrawal,20.0,0.11298029124736786
+F1_group_importance,G7->G8,,,,,,,,Social anxiety,Self-esteem,21.0,0.08807826042175293
+F1_group_importance,G7->G8,,,,,,,,After-school activity,After-school activity,22.0,0.08175434917211533
+F1_group_importance,G7->G8,,,,,,,,Father info,Household members' birth dates,23.0,0.0614120177924633
+F1_group_importance,G7->G8,,,,,,,,Self-esteem,Life satisfaction,24.0,0.05986831337213516
+F1_group_importance,G7->G8,,,,,,,,Career orientation,Career orientation,25.0,0.059774916619062424
+F1_group_importance,G7->G8,,,,,,,,Father age,Adolescent birth year (household roster),26.0,0.05176859349012375
+F1_group_importance,G7->G8,,,,,,,,Physical health,Physical health,27.0,0.050590112805366516
+F1_group_importance,G7->G8,,,,,,,,Delinquency,Delinquency,28.0,0.04873894900083542
+F1_group_importance,G7->G8,,,,,,,,Peer relationship,Cooperation,29.0,0.04451017081737518
+F1_group_importance,G7->G8,,,,,,,,Parent education involvement,Private tutoring,30.0,0.042970675975084305
+F1_group_importance,G7->G8,,,,,,,,Household income,Household income,31.0,0.03903059661388397
+F1_group_importance,G7->G8,,,,,,,,Parent health,Health (caregiver report),32.0,0.034610550850629807
+F1_group_importance,G7->G8,,,,,,,,Parent-reported family,Caregiver-reported family and child,33.0,0.03400331363081932
+F1_group_importance,G7->G8,,,,,,,,Mother info,Adolescent birth date (caregiver report),34.0,0.02984699420630932
+F1_group_importance,G7->G8,,,,,,,,SAPS virtual-life,SAPS virtual-life,35.0,0.02025466412305832
+F1_group_importance,G7->G8,,,,,,,,Depression,Subjective happiness,36.0,0.015090513974428177
+F1_group_importance,G7->G8,,,,,,,,Parent work hours,Parental work hours,37.0,0.013959827832877636
+F1_group_importance,G7->G8,,,,,,,,Birth year,Birth year,38.0,0.010275685228407383
+F1_group_importance,G7->G8,,,,,,,,SAPS change from baseline,SAPS change from baseline,39.0,0.004877643194049597
+F1_group_importance,G7->G8,,,,,,,,SAPS slope,SAPS slope,40.0,0.004297010600566864
+F1_group_importance,G7->G8,,,,,,,,Birth month,Birth month,41.0,0.002109021879732609
+F1_group_importance,G7->G8,,,,,,,,Household size,Household size,42.0,0.00210583652369678
+F1_group_importance,G7->G8,,,,,,,,Sex,Sex,43.0,0.0013968917774036527
+F1_group_importance,G7->G8,,,,,,,,Twin,Twin,44.0,0.0002535347011871636
+F1_group_importance,G8->G9,,,,,,,,Parental mediation,Caregiver smartphone use and dependence,1.0,0.6161339282989502
+F1_group_importance,G8->G9,,,,,,,,SAPS mean score,SAPS mean score,2.0,0.4786472022533417
+F1_group_importance,G8->G9,,,,,,,,Smartphone use,Academic engagement and achievement,3.0,0.4492378830909729
+F1_group_importance,G8->G9,,,,,,,,Parenting stress,Caregiver psychological traits,4.0,0.4327389597892761
+F1_group_importance,G8->G9,,,,,,,,Psychological well-being,Emotional and behavioral problems,5.0,0.4045718312263489
+F1_group_importance,G8->G9,,,,,,,,Prior high-risk,Prior high-risk,6.0,0.3860790431499481
+F1_group_importance,G8->G9,,,,,,,,Time use,Time use,7.0,0.3354518711566925
+F1_group_importance,G8->G9,,,,,,,,Family relationship,Perceived parenting,8.0,0.2925480902194977
+F1_group_importance,G8->G9,,,,,,,,SAPS sum score,SAPS sum score,9.0,0.20499883592128754
+F1_group_importance,G8->G9,,,,,,,,Device access,Smartphone use by purpose,10.0,0.19539842009544373
+F1_group_importance,G8->G9,,,,,,,,SAPS tolerance,SAPS tolerance,11.0,0.18365079164505005
+F1_group_importance,G8->G9,,,,,,,,Baseline SAPS,Baseline SAPS,12.0,0.18048971891403198
+F1_group_importance,G8->G9,,,,,,,,Self-control,Creative personality,13.0,0.15831339359283447
+F1_group_importance,G8->G9,,,,,,,,Aggression,Grit,14.0,0.1581266224384308
+F1_group_importance,G8->G9,,,,,,,,Parent school involvement,Parental educational attainment,15.0,0.1474137306213379
+F1_group_importance,G8->G9,,,,,,,,School engagement,School life and relationships,16.0,0.14113977551460266
+F1_group_importance,G8->G9,,,,,,,,Daily smartphone use,SAPS adaptive-function disturbance,17.0,0.12872512638568878
+F1_group_importance,G8->G9,,,,,,,,Cohort,Cohort,18.0,0.12341757118701935
+F1_group_importance,G8->G9,,,,,,,,SAPS withdrawal,SAPS withdrawal,19.0,0.10412020236253738
+F1_group_importance,G8->G9,,,,,,,,Social anxiety,Self-esteem,20.0,0.08610168099403381
+F1_group_importance,G8->G9,,,,,,,,After-school activity,After-school activity,21.0,0.07468615472316742
+F1_group_importance,G8->G9,,,,,,,,Father age,Adolescent birth year (household roster),22.0,0.06377752125263214
+F1_group_importance,G8->G9,,,,,,,,Father info,Household members' birth dates,23.0,0.06106813997030258
+F1_group_importance,G8->G9,,,,,,,,Career orientation,Career orientation,24.0,0.05861029028892517
+F1_group_importance,G8->G9,,,,,,,,Self-esteem,Life satisfaction,25.0,0.05815894529223442
+F1_group_importance,G8->G9,,,,,,,,Parent education involvement,Private tutoring,26.0,0.05516952648758888
+F1_group_importance,G8->G9,,,,,,,,Delinquency,Delinquency,27.0,0.05217136815190315
+F1_group_importance,G8->G9,,,,,,,,Physical health,Physical health,28.0,0.05088935047388077
+F1_group_importance,G8->G9,,,,,,,,Peer relationship,Cooperation,29.0,0.04548174515366554
+F1_group_importance,G8->G9,,,,,,,,Wave,Wave,30.0,0.04198460653424263
+F1_group_importance,G8->G9,,,,,,,,Mother info,Adolescent birth date (caregiver report),31.0,0.039741117507219315
+F1_group_importance,G8->G9,,,,,,,,Household income,Household income,32.0,0.038354773074388504
+F1_group_importance,G8->G9,,,,,,,,Parent health,Health (caregiver report),33.0,0.03691128268837929
+F1_group_importance,G8->G9,,,,,,,,Parent-reported family,Caregiver-reported family and child,34.0,0.03225254267454147
+F1_group_importance,G8->G9,,,,,,,,SAPS virtual-life,SAPS virtual-life,35.0,0.01979036070406437
+F1_group_importance,G8->G9,,,,,,,,Depression,Subjective happiness,36.0,0.013697643764317036
+F1_group_importance,G8->G9,,,,,,,,Parent work hours,Parental work hours,37.0,0.013219930231571198
+F1_group_importance,G8->G9,,,,,,,,Birth year,Birth year,38.0,0.012693952769041061
+F1_group_importance,G8->G9,,,,,,,,SAPS change from baseline,SAPS change from baseline,39.0,0.010204309597611427
+F1_group_importance,G8->G9,,,,,,,,SAPS slope,SAPS slope,40.0,0.008629189804196358
+F1_group_importance,G8->G9,,,,,,,,Household size,Household size,41.0,0.0021342572290450335
+F1_group_importance,G8->G9,,,,,,,,Birth month,Birth month,42.0,0.0020530601032078266
+F1_group_importance,G8->G9,,,,,,,,Sex,Sex,43.0,0.001016403315588832
+F1_group_importance,G8->G9,,,,,,,,Twin,Twin,44.0,0.00023963388230185956
+F1_group_importance,G9->G10,,,,,,,,Wave,Wave,1.0,0.6137098073959351
+F1_group_importance,G9->G10,,,,,,,,Parental mediation,Caregiver smartphone use and dependence,2.0,0.5918552875518799
+F1_group_importance,G9->G10,,,,,,,,SAPS mean score,SAPS mean score,3.0,0.45054951310157776
+F1_group_importance,G9->G10,,,,,,,,Smartphone use,Academic engagement and achievement,4.0,0.4210034906864166
+F1_group_importance,G9->G10,,,,,,,,Prior high-risk,Prior high-risk,5.0,0.4202715754508972
+F1_group_importance,G9->G10,,,,,,,,Parenting stress,Caregiver psychological traits,6.0,0.41348960995674133
+F1_group_importance,G9->G10,,,,,,,,Psychological well-being,Emotional and behavioral problems,7.0,0.4038839042186737
+F1_group_importance,G9->G10,,,,,,,,Time use,Time use,8.0,0.32366499304771423
+F1_group_importance,G9->G10,,,,,,,,Family relationship,Perceived parenting,9.0,0.2899923622608185
+F1_group_importance,G9->G10,,,,,,,,SAPS sum score,SAPS sum score,10.0,0.19988055527210236
+F1_group_importance,G9->G10,,,,,,,,Device access,Smartphone use by purpose,11.0,0.16603045165538788
+F1_group_importance,G9->G10,,,,,,,,Baseline SAPS,Baseline SAPS,12.0,0.16330553591251373
+F1_group_importance,G9->G10,,,,,,,,Self-control,Creative personality,13.0,0.15462376177310944
+F1_group_importance,G9->G10,,,,,,,,SAPS tolerance,SAPS tolerance,14.0,0.14930638670921326
+F1_group_importance,G9->G10,,,,,,,,Parent school involvement,Parental educational attainment,15.0,0.1392684131860733
+F1_group_importance,G9->G10,,,,,,,,School engagement,School life and relationships,16.0,0.1380918174982071
+F1_group_importance,G9->G10,,,,,,,,Aggression,Grit,17.0,0.1358419954776764
+F1_group_importance,G9->G10,,,,,,,,Daily smartphone use,SAPS adaptive-function disturbance,18.0,0.12016697973012924
+F1_group_importance,G9->G10,,,,,,,,Cohort,Cohort,19.0,0.11347377300262451
+F1_group_importance,G9->G10,,,,,,,,SAPS withdrawal,SAPS withdrawal,20.0,0.09328502416610718
+F1_group_importance,G9->G10,,,,,,,,Social anxiety,Self-esteem,21.0,0.08810008317232132
+F1_group_importance,G9->G10,,,,,,,,After-school activity,After-school activity,22.0,0.06649012863636017
+F1_group_importance,G9->G10,,,,,,,,Self-esteem,Life satisfaction,23.0,0.06308245658874512
+F1_group_importance,G9->G10,,,,,,,,Father info,Household members' birth dates,24.0,0.05903860926628113
+F1_group_importance,G9->G10,,,,,,,,Father age,Adolescent birth year (household roster),25.0,0.055789560079574585
+F1_group_importance,G9->G10,,,,,,,,Parent education involvement,Private tutoring,26.0,0.05488668382167816
+F1_group_importance,G9->G10,,,,,,,,Career orientation,Career orientation,27.0,0.05404406785964966
+F1_group_importance,G9->G10,,,,,,,,Peer relationship,Cooperation,28.0,0.04558077082037926
+F1_group_importance,G9->G10,,,,,,,,Delinquency,Delinquency,29.0,0.044389933347702026
+F1_group_importance,G9->G10,,,,,,,,Physical health,Physical health,30.0,0.04395941644906998
+F1_group_importance,G9->G10,,,,,,,,Parent health,Health (caregiver report),31.0,0.03891861066222191
+F1_group_importance,G9->G10,,,,,,,,Household income,Household income,32.0,0.03877778723835945
+F1_group_importance,G9->G10,,,,,,,,Parent-reported family,Caregiver-reported family and child,33.0,0.03612624853849411
+F1_group_importance,G9->G10,,,,,,,,Mother info,Adolescent birth date (caregiver report),34.0,0.03285249322652817
+F1_group_importance,G9->G10,,,,,,,,SAPS virtual-life,SAPS virtual-life,35.0,0.029175857082009315
+F1_group_importance,G9->G10,,,,,,,,Parent work hours,Parental work hours,36.0,0.014385965652763844
+F1_group_importance,G9->G10,,,,,,,,Depression,Subjective happiness,37.0,0.013711757957935333
+F1_group_importance,G9->G10,,,,,,,,Birth year,Birth year,38.0,0.010851172730326653
+F1_group_importance,G9->G10,,,,,,,,SAPS change from baseline,SAPS change from baseline,39.0,0.010346148163080215
+F1_group_importance,G9->G10,,,,,,,,SAPS slope,SAPS slope,40.0,0.006722716148942709
+F1_group_importance,G9->G10,,,,,,,,Birth month,Birth month,41.0,0.002606072695925832
+F1_group_importance,G9->G10,,,,,,,,Household size,Household size,42.0,0.0020212021190673113
+F1_group_importance,G9->G10,,,,,,,,Sex,Sex,43.0,0.0005905321449972689
+F1_group_importance,G9->G10,,,,,,,,Twin,Twin,44.0,0.00018856010865420103
+F1_group_importance,pooled,,,,,,,,Parental mediation,Caregiver smartphone use and dependence,1.0,0.6270461678504944
+F1_group_importance,pooled,,,,,,,,SAPS mean score,SAPS mean score,2.0,0.4846845865249634
+F1_group_importance,pooled,,,,,,,,Smartphone use,Academic engagement and achievement,3.0,0.426069051027298
+F1_group_importance,pooled,,,,,,,,Parenting stress,Caregiver psychological traits,4.0,0.41921234130859375
+F1_group_importance,pooled,,,,,,,,Psychological well-being,Emotional and behavioral problems,5.0,0.4100288450717926
+F1_group_importance,pooled,,,,,,,,Prior high-risk,Prior high-risk,6.0,0.39856183528900146
+F1_group_importance,pooled,,,,,,,,Time use,Time use,7.0,0.3274085521697998
+F1_group_importance,pooled,,,,,,,,Wave,Wave,8.0,0.306153804063797
+F1_group_importance,pooled,,,,,,,,Family relationship,Perceived parenting,9.0,0.2837183475494385
+F1_group_importance,pooled,,,,,,,,SAPS sum score,SAPS sum score,10.0,0.209286630153656
+F1_group_importance,pooled,,,,,,,,Device access,Smartphone use by purpose,11.0,0.1782902628183365
+F1_group_importance,pooled,,,,,,,,SAPS tolerance,SAPS tolerance,12.0,0.17374424636363983
+F1_group_importance,pooled,,,,,,,,Baseline SAPS,Baseline SAPS,13.0,0.16732189059257507
+F1_group_importance,pooled,,,,,,,,Aggression,Grit,14.0,0.15961170196533203
+F1_group_importance,pooled,,,,,,,,Self-control,Creative personality,15.0,0.15448832511901855
+F1_group_importance,pooled,,,,,,,,Parent school involvement,Parental educational attainment,16.0,0.142035573720932
+F1_group_importance,pooled,,,,,,,,School engagement,School life and relationships,17.0,0.1401786059141159
+F1_group_importance,pooled,,,,,,,,Daily smartphone use,SAPS adaptive-function disturbance,18.0,0.12905627489089966
+F1_group_importance,pooled,,,,,,,,Cohort,Cohort,19.0,0.12075461447238922
+F1_group_importance,pooled,,,,,,,,SAPS withdrawal,SAPS withdrawal,20.0,0.10375790297985077
+F1_group_importance,pooled,,,,,,,,Social anxiety,Self-esteem,21.0,0.08742575347423553
+F1_group_importance,pooled,,,,,,,,After-school activity,After-school activity,22.0,0.0745396688580513
+F1_group_importance,pooled,,,,,,,,Father info,Household members' birth dates,23.0,0.06054217740893364
+F1_group_importance,pooled,,,,,,,,Self-esteem,Life satisfaction,24.0,0.060320645570755005
+F1_group_importance,pooled,,,,,,,,Career orientation,Career orientation,25.0,0.057563021779060364
+F1_group_importance,pooled,,,,,,,,Father age,Adolescent birth year (household roster),26.0,0.05705450847744942
+F1_group_importance,pooled,,,,,,,,Parent education involvement,Private tutoring,27.0,0.0508318692445755
+F1_group_importance,pooled,,,,,,,,Physical health,Physical health,28.0,0.04858032241463661
+F1_group_importance,pooled,,,,,,,,Delinquency,Delinquency,29.0,0.048500463366508484
+F1_group_importance,pooled,,,,,,,,Peer relationship,Cooperation,30.0,0.04517494514584541
+F1_group_importance,pooled,,,,,,,,Household income,Household income,31.0,0.03872467577457428
+F1_group_importance,pooled,,,,,,,,Parent health,Health (caregiver report),32.0,0.03674880415201187
+F1_group_importance,pooled,,,,,,,,Mother info,Adolescent birth date (caregiver report),33.0,0.03410431370139122
+F1_group_importance,pooled,,,,,,,,Parent-reported family,Caregiver-reported family and child,34.0,0.034094639122486115
+F1_group_importance,pooled,,,,,,,,SAPS virtual-life,SAPS virtual-life,35.0,0.022938119247555733
+F1_group_importance,pooled,,,,,,,,Depression,Subjective happiness,36.0,0.014187132939696312
+F1_group_importance,pooled,,,,,,,,Parent work hours,Parental work hours,37.0,0.013848558999598026
+F1_group_importance,pooled,,,,,,,,Birth year,Birth year,38.0,0.011265603825449944
+F1_group_importance,pooled,,,,,,,,SAPS change from baseline,SAPS change from baseline,39.0,0.00839468277990818
+F1_group_importance,pooled,,,,,,,,SAPS slope,SAPS slope,40.0,0.006514144130051136
+F1_group_importance,pooled,,,,,,,,Birth month,Birth month,41.0,0.0022484916262328625
+F1_group_importance,pooled,,,,,,,,Household size,Household size,42.0,0.0020883914548903704
+F1_group_importance,pooled,,,,,,,,Sex,Sex,43.0,0.0010133953765034676
+F1_group_importance,pooled,,,,,,,,Twin,Twin,44.0,0.00022822436585556716

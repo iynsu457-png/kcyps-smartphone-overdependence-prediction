@@ -1,0 +1,456 @@
+feature,n_levels,kind,likely_nominal,min,max
+P_PARENT,7,ordinal-like (<=7 integer levels),True,1.0,7.0
+P_PBRP1,3,ordinal-like (<=7 integer levels),False,1.0,9.0
+P_PBRP2,18,"integer, many levels",False,1.0,99.0
+P_PEDU1A00,2,binary,False,1.0,2.0
+P_PEDU1B01,8,"integer, many levels",False,1.0,8.0
+P_PEDU1B02,8,"integer, many levels",False,1.0,8.0
+P_PEDU1C00,128,continuous,False,0.0,800.0
+P_PFAM1A00,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+P_PFAM2A01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+P_PFAM2A02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+P_PFAM2A03,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+P_PFAM2A04,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+P_PFAM3A00,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+P_PFAM3B00,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+P_PFAM3C00,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+P_PFAM3D00,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+P_PFBRTA1,6,ordinal-like (<=7 integer levels),False,2004.0,2009.0
+P_PFBRTA2,81,continuous,False,1926.0,2013.0
+P_PFBRTA3,85,continuous,False,1924.0,2014.0
+P_PFBRTA4,89,continuous,False,1923.0,2020.0
+P_PFBRTB1,12,"integer, many levels",False,1.0,12.0
+P_PFBRTB2,12,"integer, many levels",False,1.0,12.0
+P_PFBRTB3,12,"integer, many levels",False,1.0,12.0
+P_PFBRTB4,12,"integer, many levels",False,1.0,12.0
+P_PFGENDER1,2,binary,False,1.0,2.0
+P_PFGENDER2,2,binary,False,1.0,2.0
+P_PFGENDER3,2,binary,False,1.0,2.0
+P_PFGENDER4,2,binary,False,1.0,2.0
+P_PFRELATION2,10,"integer, many levels",True,1.0,10.0
+P_PFRELATION3,10,"integer, many levels",True,1.0,10.0
+P_PFRELATION4,10,"integer, many levels",True,1.0,10.0
+P_PHOMPOP,8,"integer, many levels",False,2.0,9.0
+P_PINCOME,13,"integer, many levels",False,1.0,9999.0
+P_PINCOME1,6,ordinal-like (<=7 integer levels),False,1.0,9999.0
+P_PJOB1,12,"integer, many levels",True,1.0,9999.0
+P_PJOB2,12,"integer, many levels",True,1.0,9999.0
+P_PMDA1A00,3,ordinal-like (<=7 integer levels),False,1.0,3.0
+P_PMDA1B01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B11,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1B13,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+P_PMDA1C01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C11,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C12,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C13,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C14,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PMDA1C15,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPHY1A00,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPHY1B00,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+P_PPHY1C00,8,"integer, many levels",False,0.0,7.0
+P_PPHY2A00,50,continuous,False,143.0,9999.0
+P_PPHY2B00,72,continuous,False,37.0,9999.0
+P_PPSY1A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY1A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY1A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY1A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY1A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY2A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY2A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY2A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY2A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY3A10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY4A01,2,binary,False,0.0,1.0
+P_PPSY4A02,2,binary,False,0.0,1.0
+P_PPSY4A03,2,binary,False,0.0,1.0
+P_PPSY4A04,2,binary,False,0.0,1.0
+P_PPSY4A05,2,binary,False,0.0,1.0
+P_PPSY4A06,2,binary,False,0.0,1.0
+P_PPSY4A07,2,binary,False,0.0,1.0
+P_PPSY4A08,2,binary,False,0.0,1.0
+P_PPSY4A09,2,binary,False,0.0,1.0
+P_PPSY4A10,2,binary,False,0.0,1.0
+P_PPSY4A11,2,binary,False,0.0,1.0
+P_PPSY4A12,2,binary,False,0.0,1.0
+P_PPSY4A13,2,binary,False,0.0,1.0
+P_PPSY4A14,2,binary,False,0.0,1.0
+P_PPSY4A15,2,binary,False,0.0,1.0
+P_PPSY4A16,2,binary,False,0.0,1.0
+P_PPSY4A17,2,binary,False,0.0,1.0
+P_PPSY4A18,2,binary,False,0.0,1.0
+P_PPSY4A19,2,binary,False,0.0,1.0
+P_PPSY4A20,2,binary,False,0.0,1.0
+P_PPSY4A21,2,binary,False,0.0,1.0
+P_PPSY4A22,2,binary,False,0.0,1.0
+P_PPSY4A23,2,binary,False,0.0,1.0
+P_PPSY4A24,2,binary,False,0.0,1.0
+P_PPSY4A25,2,binary,False,0.0,1.0
+P_PPSY4A26,2,binary,False,0.0,1.0
+P_PPSY4A27,2,binary,False,0.0,1.0
+P_PPSY4A28,2,binary,False,0.0,1.0
+P_PPSY4A29,2,binary,False,0.0,1.0
+P_PPSY4A30,2,binary,False,0.0,1.0
+P_PPSY4Asc,26,"integer, many levels",False,-11.0,16.0
+P_PPSY5A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY5A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY5A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY5A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY5A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY5A06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY5A07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PPSY5A08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+P_PSCHOOL1,10,"integer, many levels",False,1.0,10.0
+P_PSCHOOL2,10,"integer, many levels",False,1.0,10.0
+P_PSCHOOL3,10,"integer, many levels",False,1.0,10.0
+P_PWORKW1,3,ordinal-like (<=7 integer levels),True,1.0,3.0
+P_PWORKW2,3,ordinal-like (<=7 integer levels),True,1.0,3.0
+P_PWORKW3,3,ordinal-like (<=7 integer levels),True,1.0,3.0
+P_PYBRP1,2,binary,False,1.0,2.0
+P_PYBRP2,17,"integer, many levels",False,1.0,17.0
+P_PYBRT1A,6,ordinal-like (<=7 integer levels),False,2004.0,2009.0
+P_PYBRT1B,12,"integer, many levels",False,1.0,12.0
+P_PYGENDER,2,binary,False,1.0,2.0
+SP_DAILY,16,"integer, many levels",False,5.0,20.0
+SP_MEAN,46,continuous,False,1.0,4.0
+SP_SUM,46,continuous,False,15.0,60.0
+SP_TOLERANCE,13,"integer, many levels",False,4.0,16.0
+SP_VIRTUAL,7,ordinal-like (<=7 integer levels),False,2.0,8.0
+SP_WITHDRAWAL,13,"integer, many levels",False,4.0,16.0
+YACT1A01,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT1A02,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT1A03,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT1A04,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT1A05,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT1A06,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT1A07,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT1A08,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT1A09,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT1B01,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT2A01,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT2A02,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YACT3A00,2,binary,False,1.0,2.0
+YBRT1A,6,ordinal-like (<=7 integer levels),False,2004.0,2009.0
+YBRT1B,12,"integer, many levels",False,1.0,12.0
+YDLQ1A01,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ1A02,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ1A03,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ1A04,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ1A05,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ1A06,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ1A07,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ1A08,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ1A09,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ1A10,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YDLQ1A11,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YDLQ1A12,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YDLQ1A13,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YDLQ1A14,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YDLQ1A15,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A01,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A02,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A03,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A04,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A05,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YDLQ2A06,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A07,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YDLQ2A08,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A09,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A10,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YDLQ2A11,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A12,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YDLQ2A13,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A14,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YDLQ2A15,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YEDU1A00,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YEDU2A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A11,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A12,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU2A13,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A11,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A12,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A13,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YEDU3A14,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM1A01,24,"integer, many levels",False,0.0,23.0
+YFAM1A02,6,ordinal-like (<=7 integer levels),False,0.0,50.0
+YFAM1A03,24,"integer, many levels",False,0.0,23.0
+YFAM1A04,6,ordinal-like (<=7 integer levels),False,0.0,50.0
+YFAM2A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2B01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2B02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2B03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2B04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2C01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2C02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2C03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2C04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2D01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2D02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2D03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2D04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2E01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2E02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2E03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2E04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2F01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2F02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2F03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFAM2F04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YFUR1A00,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YFUR1B00,3,ordinal-like (<=7 integer levels),False,1.0,3.0
+YFUR2A01,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+YFUR2A02,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+YFUR2A03,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+YFUR2A04,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+YFUR2A05,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+YFUR2A06,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+YFUR2A07,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+YFUR2A08,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+YGENDER,2,binary,False,1.0,2.0
+YINT1A00,6,ordinal-like (<=7 integer levels),True,1.0,6.0
+YINT1B00,6,ordinal-like (<=7 integer levels),False,1.0,6.0
+YINT2A01,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A02,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A03,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A04,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A05,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A06,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A07,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A08,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A09,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A10,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A11,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A12,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A13,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A14,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A15,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2A16,4,ordinal-like (<=7 integer levels),True,1.0,4.0
+YINT2B01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B11,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B12,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B13,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B14,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B15,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YINT2B16,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1A00,3,ordinal-like (<=7 integer levels),True,1.0,3.0
+YMDA1B01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B11,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YMDA1B13,5,ordinal-like (<=7 integer levels),False,1.0,8.0
+YPHY1A00,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPHY1B00,5,ordinal-like (<=7 integer levels),False,1.0,5.0
+YPHY1C00,8,"integer, many levels",False,0.0,7.0
+YPHY2A00,73,continuous,False,135.0,193.0
+YPHY2B00,105,continuous,False,28.0,121.0
+YPSY1A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY1A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY1A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY1A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY1A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY2A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY2A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY2A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY2A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY3A10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4A06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4A07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4B01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4B02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4B03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4B04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4B05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4B06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4C01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4C02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4C03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4C04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4C05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4C06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4C07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4C08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4D01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4D02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4D03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4D04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4D05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY4E10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A09,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A10,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A11,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A12,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A13,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY5A14,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY6A01,2,binary,False,0.0,1.0
+YPSY6A02,2,binary,False,0.0,1.0
+YPSY6A03,2,binary,False,0.0,1.0
+YPSY6A04,2,binary,False,0.0,1.0
+YPSY6A05,2,binary,False,0.0,1.0
+YPSY6A06,2,binary,False,0.0,1.0
+YPSY6A07,2,binary,False,0.0,1.0
+YPSY6A08,2,binary,False,0.0,1.0
+YPSY6A09,2,binary,False,0.0,1.0
+YPSY6A10,2,binary,False,0.0,1.0
+YPSY6A11,2,binary,False,0.0,1.0
+YPSY6A12,2,binary,False,0.0,1.0
+YPSY6A13,2,binary,False,0.0,1.0
+YPSY6A14,2,binary,False,0.0,1.0
+YPSY6A15,2,binary,False,0.0,1.0
+YPSY6A16,2,binary,False,0.0,1.0
+YPSY6A17,2,binary,False,0.0,1.0
+YPSY6A18,2,binary,False,0.0,1.0
+YPSY6A19,2,binary,False,0.0,1.0
+YPSY6A20,2,binary,False,0.0,1.0
+YPSY6A21,2,binary,False,0.0,1.0
+YPSY6A22,2,binary,False,0.0,1.0
+YPSY6A23,2,binary,False,0.0,1.0
+YPSY6A24,2,binary,False,0.0,1.0
+YPSY6A25,2,binary,False,0.0,1.0
+YPSY6A26,2,binary,False,0.0,1.0
+YPSY6A27,2,binary,False,0.0,1.0
+YPSY6A28,2,binary,False,0.0,1.0
+YPSY6A29,2,binary,False,0.0,1.0
+YPSY6A30,2,binary,False,0.0,1.0
+YPSY6Asc,26,"integer, many levels",False,-10.0,15.0
+YPSY7A01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY7A02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY7A03,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY7A04,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY7A05,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY7A06,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY7A07,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YPSY7A08,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YTIM1A01,6,ordinal-like (<=7 integer levels),False,4.0,9.0
+YTIM1A02,6,ordinal-like (<=7 integer levels),False,0.0,50.0
+YTIM1A03,14,"integer, many levels",False,4.0,17.0
+YTIM1A04,6,ordinal-like (<=7 integer levels),False,0.0,50.0
+YTIM1B01,10,"integer, many levels",False,20.0,29.0
+YTIM1B02,6,ordinal-like (<=7 integer levels),False,0.0,50.0
+YTIM1B03,12,"integer, many levels",False,19.0,30.0
+YTIM1B04,6,ordinal-like (<=7 integer levels),False,0.0,50.0
+YTIM1C01,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YTIM1C02,4,ordinal-like (<=7 integer levels),False,1.0,4.0
+YTIM1D01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1D02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1E01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1E02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1F01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1F02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1G01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1G02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1H01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1H02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1I01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1I02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1J01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1J02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1K01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1K02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1L01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1L02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1M01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1M02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1N01,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTIM1N02,7,ordinal-like (<=7 integer levels),False,1.0,7.0
+YTWIN,4,ordinal-like (<=7 integer levels),False,0.0,3.0
+PREV_HIGH_RISK,2,binary,False,0.0,1.0
+SP_SUM_BASELINE,44,continuous,False,15.0,60.0
+SP_SUM_DELTA,62,continuous,False,-36.0,31.0
+SP_SUM_SLOPE,83,continuous,False,-31.0,31.0
+COHORT_SRC_e4,2,binary,False,0.0,1.0
+WAVE_IDX,3,ordinal-like (<=7 integer levels),False,0.0,2.0

@@ -1,0 +1,45 @@
+scale,median_rank,rank_lo,rank_hi,share_top5
+Parental mediation,1.0,1.0,1.0,1.0
+SAPS mean score,2.0,2.0,2.0,1.0
+Smartphone use,3.0,3.0,4.0,1.0
+Parenting stress,4.0,3.0,5.0,1.0
+Psychological well-being,5.0,3.0,5.0,0.998
+Prior high-risk,6.0,6.0,6.0,0.002
+Time use,7.0,7.0,8.0,0.0
+Wave,8.0,7.0,8.0,0.0
+Family relationship,9.0,9.0,9.0,0.0
+SAPS sum score,10.0,10.0,10.0,0.0
+Device access,11.0,11.0,12.0,0.0
+SAPS tolerance,12.0,11.0,13.0,0.0
+Baseline SAPS,13.0,11.0,14.0,0.0
+Aggression,14.0,13.0,14.0,0.0
+Self-control,15.0,15.0,15.0,0.0
+Parent school involvement,16.0,16.0,17.0,0.0
+School engagement,17.0,16.0,17.0,0.0
+Daily smartphone use,18.0,18.0,18.0,0.0
+Cohort,19.0,19.0,19.0,0.0
+SAPS withdrawal,20.0,20.0,20.0,0.0
+Social anxiety,21.0,21.0,21.0,0.0
+After-school activity,22.0,22.0,22.0,0.0
+Father info,23.0,23.0,24.0,0.0
+Self-esteem,24.0,23.0,24.0,0.0
+Career orientation,25.0,25.0,26.0,0.0
+Father age,26.0,25.0,26.0,0.0
+Parent education involvement,27.0,27.0,28.0,0.0
+Delinquency,28.0,28.0,29.0,0.0
+Physical health,29.0,28.0,29.0,0.0
+Peer relationship,30.0,29.0,30.0,0.0
+Household income,31.0,31.0,31.0,0.0
+Parent health,32.0,32.0,32.0,0.0
+Parent-reported family,33.0,33.0,34.0,0.0
+Mother info,34.0,33.0,34.0,0.0
+SAPS virtual-life,35.0,35.0,35.0,0.0
+Depression,36.0,36.0,36.0,0.0
+Parent work hours,37.0,37.0,37.0,0.0
+Birth year,38.0,38.0,38.0,0.0
+SAPS change from baseline,39.0,39.0,39.0,0.0
+SAPS slope,40.0,40.0,40.0,0.0
+Birth month,41.0,41.0,42.0,0.0
+Household size,42.0,41.0,42.0,0.0
+Sex,43.0,43.0,43.0,0.0
+Twin,44.0,44.0,44.0,0.0

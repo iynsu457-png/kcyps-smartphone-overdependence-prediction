@@ -1,0 +1,38 @@
+﻿No,Code,Description,Value
+1,SAPS,"Smartphone Addiction Proneness Scale (Kim et al., 2014); 4 sub-factors (Disturbance of adaptive functions, Virtual life orientation, Withdrawal, Tolerance) plus daily-use frequency and total/mean/baseline/Δ/slope.","Item-level Likert 1–4 (1 = strongly disagree, 4 = strongly agree); official cut-offs applied to 15-item sum: General ≤ 22 (Grade 4), ≤ 25 (Grade 5+); High-risk ≥ 31 (Grade 4), ≥ 32 (Grade 5+) [National Information Society Agency, 2017]"
+2,Prior_wave_high_risk_label,High-risk SAPS classification at preceding wave (t),"0 = General, 1 = High-risk"
+3,Adolescent_psychological_batteries,"Self-report psychological measures (KCYPS YPSY1, 2, 3, 5, 6): self-esteem, depression, social anxiety, peer relationship, self-control, self-concept",Item-level Likert 1–4
+4,Adolescent_psychology_multi_domain_battery,"Multi-domain psychology battery (KCYPS YPSY4 sub-modules A–E): ego-identity, attention, life-satisfaction, grit-style indicators",Item-level Likert 1–4
+5,Adolescent_aggression_battery,Aggression / hostility scale (KCYPS YPSY7),Item-level Likert 1–4
+6,Internet_smartphone_use_battery,"Internet- and smartphone-use behaviour battery (KCYPS YINT): frequency, duration, primary purpose (study, communication, entertainment, SNS), parental mediation","Mixed: ordinal 1–6 (frequency), continuous (minutes/day), categorical (primary purpose)"
+7,Time_use_diary,"Weekly time-use diary (KCYPS YTIM1 A–N): hours spent on study, sleep, media, physical activity, family time, leisure (weekday + weekend)",Continuous (hours/week)
+8,Delinquency_battery,"Delinquency victimisation + perpetration battery (KCYPS YDLQ): bullying, theft, truancy, substance use, cyber-violence","Item-level frequency 1–4 (1 = never, 4 = often)"
+9,Education_engagement_battery,"Education engagement battery (KCYPS YEDU): academic motivation, school adjustment, learning immersion, study stress",Item-level Likert 1–4
+10,Family_relationship_battery,"Adolescent-reported family relationship battery (KCYPS YFAM A–F): parental warmth, monitoring, conflict, communication",Item-level Likert 1–4
+11,After_school_activity_battery,After-school / private-tutoring activity battery (KCYPS YACT),"Mixed: ordinal frequency, categorical activity type"
+12,Media_device_access,Adolescent media-device ownership and access (KCYPS YMDA),"0 = No, 1 = Yes (per device)"
+13,Future_career_orientation_battery,Future career-orientation and aspiration battery (KCYPS YFUR),Item-level Likert 1–4 + categorical career area
+14,Adolescent_physical_health,"Adolescent self-reported physical health (KCYPS YPHY): perceived health, illness experience, physical activity","Likert 1–5 (perceived health), 0/1 (illness items)"
+15,Adolescent_sex,Biological sex of adolescent,"1 = Male, 2 = Female"
+16,Adolescent_demographics,"Adolescent birth-related demographics (year, month)",Continuous
+17,Twin_status,Multiple-birth (twin) status,"0 = Singleton, 1 = Twin/multiple birth"
+18,Parent_psychological_batteries,"Parent-reported psychological batteries (KCYPS P_PPSY): parenting stress, parenting efficacy, parental depression, parental self-esteem, marital relationship",Item-level Likert 1–4
+19,Parent_media_use,"Parent-reported media-use battery (KCYPS P_PMDA): parental media habits, co-viewing, mediation","Mixed: ordinal frequency, hours/day"
+20,Parent_family_relationship_battery,Parent-reported family relationship battery (KCYPS P_PFAM),Item-level Likert 1–4
+21,Parent_physical_health,Parent self-reported physical health,Likert 1–5 + 0/1 illness items
+22,Parent_education_engagement,Parent involvement in adolescent education (KCYPS P_PEDU),Item-level Likert 1–4
+23,Parent_school_engagement,Parental school-event engagement,Item-level frequency 1–5
+24,Parent_work_hours,Parental working hours and schedule,Continuous (hours/week) + ordinal
+25,Father_demographics,"Father demographics (birth year, birth month, education, occupation)","Mixed: continuous (year/month), ordinal (education), categorical (occupation)"
+26,Father_sex,Father biological sex,"1 = Male, 2 = Female"
+27,Father_relationship_to_child,Father's relationship to the adolescent,"1 = Biological, 2 = Step, 3 = Adoptive, 4 = Other"
+28,Mother_demographics,"Mother demographics (birth year, birth month)",Continuous
+29,Mother_sex,Mother biological sex,1 = Female
+30,Mother_birth_record,"Mother birth-related record (parity, age at birth)",Continuous
+31,Birth_record,"Adolescent birth record (gestational age, birth weight)",Continuous
+32,Primary_caregiver,Primary caregiver type,"1 = Mother, 2 = Father, 3 = Grandparent, 4 = Other"
+33,Household_income,Monthly household income,"1 = < 2 M KRW, 2 = 2–3 M, 3 = 3–4 M, 4 = 4–5 M, 5 = 5–6 M, 6 = 6–7 M, 7 = 7–8 M, 8 = 8 M+"
+34,Household_size,Number of household members,Continuous (persons)
+35,Parent_occupation,Parent occupation type,Categorical (KSCO 1-digit code)
+36,Wave_index,Survey wave at which features were measured (t),1–6 (m1: w1=2018 → w4=2021; e4: w4=2018 → w7=2021)
+37,Cohort_indicator,Cohort source (KCYPS 2018 m1 vs e4 panel),"0 = m1 (Grade 1 cohort), 1 = e4 (Grade 4 cohort)"

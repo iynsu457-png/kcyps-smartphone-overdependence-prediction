@@ -1,0 +1,24 @@
+scheme,repeat,fold,n_train,n_pos_train,n_val,n_pos_val
+inner 3-fold hyperparameter search,1,1,5849,282,2926,142
+inner 3-fold hyperparameter search,1,2,5851,283,2924,141
+inner 3-fold hyperparameter search,1,3,5850,283,2925,141
+outer 5-fold threshold derivation,1,1,7019,339,1756,85
+outer 5-fold threshold derivation,1,2,7019,339,1756,85
+outer 5-fold threshold derivation,1,3,7021,340,1754,84
+outer 5-fold threshold derivation,1,4,7021,339,1754,85
+outer 5-fold threshold derivation,1,5,7020,339,1755,85
+repeated grouped cross-validation (model selection),1,1,7019,339,1756,85
+repeated grouped cross-validation (model selection),1,2,7019,339,1756,85
+repeated grouped cross-validation (model selection),1,3,7021,340,1754,84
+repeated grouped cross-validation (model selection),1,4,7021,339,1754,85
+repeated grouped cross-validation (model selection),1,5,7020,339,1755,85
+repeated grouped cross-validation (model selection),2,1,7019,339,1756,85
+repeated grouped cross-validation (model selection),2,2,7020,339,1755,85
+repeated grouped cross-validation (model selection),2,3,7021,340,1754,84
+repeated grouped cross-validation (model selection),2,4,7020,339,1755,85
+repeated grouped cross-validation (model selection),2,5,7020,339,1755,85
+repeated grouped cross-validation (model selection),3,1,7020,339,1755,85
+repeated grouped cross-validation (model selection),3,2,7019,339,1756,85
+repeated grouped cross-validation (model selection),3,3,7021,339,1754,85
+repeated grouped cross-validation (model selection),3,4,7019,339,1756,85
+repeated grouped cross-validation (model selection),3,5,7021,340,1754,84

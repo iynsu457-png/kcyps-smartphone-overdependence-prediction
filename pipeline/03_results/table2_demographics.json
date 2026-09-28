@@ -1,0 +1,265 @@
+{
+  "n_rows": {
+    "development": 8775,
+    "test": 2197
+  },
+  "n_unique_ids": {
+    "development": 3707,
+    "test": 927
+  },
+  "positive_prevalence_pct": {
+    "development": 4.831908831908832,
+    "test": 4.233045061447428
+  },
+  "outcome_y_high_risk_n": {
+    "development": 424,
+    "test": 93
+  },
+  "variables": {
+    "sex": {
+      "label": "Sex",
+      "type": "categorical",
+      "labels": {
+        "1": "Male",
+        "2": "Female"
+      },
+      "development": {
+        "1.0": 4473,
+        "2.0": 4073,
+        "_n": 8546,
+        "_missing": 229
+      },
+      "test": {
+        "1.0": 1070,
+        "2.0": 1075,
+        "_n": 2145,
+        "_missing": 52
+      },
+      "p_value": 0.04423291446166598
+    },
+    "cohort": {
+      "label": "KCYPS cohort source",
+      "type": "categorical",
+      "labels": {
+        "0": "Elementary G1 panel (m1)",
+        "1": "Elementary G4 panel (e4)"
+      },
+      "development": {
+        "0": 4405,
+        "1": 4370,
+        "_n": 8775,
+        "_missing": 0
+      },
+      "test": {
+        "0": 1022,
+        "1": 1175,
+        "_n": 2197,
+        "_missing": 0
+      },
+      "p_value": 0.002193736047532264
+    },
+    "transition": {
+      "label": "Grade transition",
+      "type": "categorical",
+      "labels": {
+        "G7->G8": "G7-to-G8",
+        "G8->G9": "G8-to-G9",
+        "G9->G10": "G9-to-G10"
+      },
+      "development": {
+        "G7->G8": 3013,
+        "G8->G9": 2905,
+        "G9->G10": 2857,
+        "_n": 8775,
+        "_missing": 0
+      },
+      "test": {
+        "G7->G8": 765,
+        "G8->G9": 733,
+        "G9->G10": 699,
+        "_n": 2197,
+        "_missing": 0
+      },
+      "p_value": 0.797073050141142
+    },
+    "wave_idx": {
+      "label": "Wave index (transition)",
+      "type": "categorical",
+      "labels": {
+        "0": "Transition 1",
+        "1": "Transition 2",
+        "2": "Transition 3"
+      },
+      "development": {
+        "0": 3013,
+        "1": 2905,
+        "2": 2857,
+        "_n": 8775,
+        "_missing": 0
+      },
+      "test": {
+        "0": 765,
+        "1": 733,
+        "2": 699,
+        "_n": 2197,
+        "_missing": 0
+      },
+      "p_value": 0.797073050141142
+    },
+    "household_income": {
+      "label": "Monthly household income (10,000 KRW)",
+      "type": "categorical",
+      "labels": {
+        "<=300": "<= 300",
+        "300-600": "301-600",
+        "600-900": "601-900",
+        ">900": "> 900"
+      },
+      "development": {
+        "<=300": 351,
+        "300-600": 3456,
+        "600-900": 3616,
+        ">900": 1118,
+        "_n": 8541,
+        "_missing": 234
+      },
+      "test": {
+        "<=300": 97,
+        "300-600": 871,
+        "600-900": 918,
+        ">900": 256,
+        "_n": 2142,
+        "_missing": 55
+      },
+      "p_value": 0.46313517312291685
+    },
+    "birth_year": {
+      "label": "Birth year",
+      "type": "continuous",
+      "development": {
+        "n": 8546,
+        "mean": 2006.4857243154693,
+        "sd": 1.500097846096299,
+        "median": 2005.0,
+        "iqr_lo": 2005.0,
+        "iqr_hi": 2008.0,
+        "missing": 229
+      },
+      "test": {
+        "n": 2145,
+        "mean": 2006.5990675990677,
+        "sd": 1.4939551918640792,
+        "median": 2008.0,
+        "iqr_lo": 2005.0,
+        "iqr_hi": 2008.0,
+        "missing": 52
+      },
+      "p_value": 0.0017104105137150717
+    },
+    "household_size": {
+      "label": "Household size (persons)",
+      "type": "continuous",
+      "development": {
+        "n": 8544,
+        "mean": 4.137874531835206,
+        "sd": 0.8743877175173819,
+        "median": 4.0,
+        "iqr_lo": 4.0,
+        "iqr_hi": 5.0,
+        "missing": 231
+      },
+      "test": {
+        "n": 2142,
+        "mean": 4.11391223155929,
+        "sd": 0.8359634266942841,
+        "median": 4.0,
+        "iqr_lo": 4.0,
+        "iqr_hi": 4.0,
+        "missing": 55
+      },
+      "p_value": 0.23998913123518614
+    },
+    "parent_education": {
+      "label": "Parent education (P_PEDU1A00)",
+      "type": "categorical",
+      "development": {
+        "1.0": 7423,
+        "2.0": 1121,
+        "_n": 8544,
+        "_missing": 231
+      },
+      "test": {
+        "1.0": 1844,
+        "2.0": 298,
+        "_n": 2142,
+        "_missing": 55
+      },
+      "p_value": 0.35229516017691564
+    },
+    "prev_high_risk": {
+      "label": "Prior-wave SAPS high-risk indicator",
+      "type": "categorical",
+      "labels": {
+        "0": "Not high-risk at wave t",
+        "1": "High-risk at wave t"
+      },
+      "development": {
+        "0": 8484,
+        "1": 291,
+        "_n": 8775,
+        "_missing": 0
+      },
+      "test": {
+        "0": 2137,
+        "1": 60,
+        "_n": 2197,
+        "_missing": 0
+      },
+      "p_value": 0.1847485241078119
+    },
+    "saps_baseline": {
+      "label": "SAPS 15-item sum at wave t",
+      "type": "continuous",
+      "development": {
+        "n": 8419,
+        "mean": 30.539137664805796,
+        "sd": 7.117717163314754,
+        "median": 30.0,
+        "iqr_lo": 26.0,
+        "iqr_hi": 35.0,
+        "missing": 356
+      },
+      "test": {
+        "n": 2104,
+        "mean": 30.625,
+        "sd": 7.0525884470944,
+        "median": 31.0,
+        "iqr_lo": 26.0,
+        "iqr_hi": 35.0,
+        "missing": 93
+      },
+      "p_value": 0.6181101469903434
+    },
+    "outcome_high_risk": {
+      "label": "SAPS high-risk at wave t+1 (outcome)",
+      "type": "categorical",
+      "labels": {
+        "0": "General",
+        "1": "High-risk"
+      },
+      "development": {
+        "0": 8351,
+        "1": 424,
+        "_n": 8775,
+        "_missing": 0
+      },
+      "test": {
+        "0": 2104,
+        "1": 93,
+        "_n": 2197,
+        "_missing": 0
+      },
+      "p_value": 0.2591550661194349
+    }
+  }
+}

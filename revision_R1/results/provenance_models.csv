@@ -1,0 +1,6 @@
+analysis,target,AUROC,PR_AUC,model,n_features
+D3_missingness_signal,outcome,0.5283970113250747,0.05335321132467477,,
+D3_missingness_signal,cohort,0.5885435316650707,,,
+D3_missingness_signal,G7-to-G8 transition,0.5031766896702815,,,
+D5_scale_vs_item,,0.7813381577333496,0.22176895669166302,scale scores,42.0
+D5_scale_vs_item,,0.7987806124534936,0.21796222218917563,item level,455.0

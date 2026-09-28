@@ -1,0 +1,129 @@
+kind,rho,overlap_top25,group,label,n_items,summed,top1_share,top3_share,items_for_80pct,rank,code,mean_abs_shap,share,item_label
+agreement,0.9815384615384616,23.0,,,,,,,,,,,,
+group,,,Parent education involvement,Private tutoring,4.0,0.048940449953079224,0.34783419966697693,0.8391870260238647,3.0,,,,,
+top_item,,,Parent education involvement,Private tutoring,,,,,,1.0,P_PEDU1B01,0.01702316291630268,0.34783419966697693,[사교육]-사교육을 받은 이유 1순위
+top_item,,,Parent education involvement,Private tutoring,,,,,,2.0,P_PEDU1B02,0.013081532903015614,0.26729491353034973,[사교육]-사교육을 받은 이유 2순위
+top_item,,,Parent education involvement,Private tutoring,,,,,,3.0,P_PEDU1C00,0.010965492576360703,0.2240578681230545,[사교육]-월 평균 사교육비
+group,,,Parent-reported family,Caregiver-reported family and child,9.0,0.033017389476299286,0.4302595555782318,0.8220361471176147,3.0,,,,,
+top_item,,,Parent-reported family,Caregiver-reported family and child,,,,,,1.0,P_PFAM3A00,0.014206047169864178,0.4302595555782318,[자녀의 학업성취 정도]-지난 학기 전 과목 성적 수준
+top_item,,,Parent-reported family,Caregiver-reported family and child,,,,,,2.0,P_PFAM3B00,0.008509212173521519,0.25771909952163696,[자녀의 학교성적 만족도]-지난 학기 학교성적 만족 수준
+top_item,,,Parent-reported family,Caregiver-reported family and child,,,,,,3.0,P_PFAM3C00,0.004426227882504463,0.13405747711658478,[자녀의 학교생활 만족도]-지난 학기 학교생활 만족 수준
+group,,,Father info,Household members' birth dates,7.0,0.06047433987259865,0.2769898772239685,0.6317955851554871,5.0,,,,,
+top_item,,,Father info,Household members' birth dates,,,,,,1.0,P_PFBRTB3,0.01675078086555004,0.2769898772239685,[가구 구성원]-가구원 상세3 생월
+top_item,,,Father info,Household members' birth dates,,,,,,2.0,P_PFBRTA2,0.011865193024277687,0.1962021142244339,[가구 구성원]-가구원 상세2 생년
+top_item,,,Father info,Household members' birth dates,,,,,,3.0,P_PFBRTB1,0.009591443464159966,0.1586035192012787,[가구 구성원]-가구원 상세1 생월
+group,,,Household income,Household income,2.0,0.039024073630571365,0.8892776370048523,1.0,1.0,,,,,
+top_item,,,Household income,Household income,,,,,,1.0,P_PINCOME,0.03470323607325554,0.8892776370048523,월 평균 가구 소득
+top_item,,,Household income,Household income,,,,,,2.0,P_PINCOME1,0.004320838954299688,0.11072239279747009,주관적 가정의 경제수준
+group,,,Parental mediation,Caregiver smartphone use and dependence,28.0,0.6313815116882324,0.19848443567752838,0.38339000940322876,13.0,,,,,
+top_item,,,Parental mediation,Caregiver smartphone use and dependence,,,,,,1.0,P_PMDA1C12,0.12531940639019012,0.19848443567752838,[의존도]-스마트폰 사용시간을 줄이려고 해보았지만 실패한다
+top_item,,,Parental mediation,Caregiver smartphone use and dependence,,,,,,2.0,P_PMDA1C04,0.06023038178682327,0.09539458900690079,[의존도]-스마트폰을 사용하느라 지금 하고 있는 일(공부)에 집중이 안 된 적이 있다
+top_item,,,Parental mediation,Caregiver smartphone use and dependence,,,,,,3.0,P_PMDA1C13,0.056515563279390335,0.0895109549164772,[의존도]-스마트폰을 사용할 때 그만해야지 라고 생각은 하면서도 계속한다
+group,,,Parent health,Health (caregiver report),5.0,0.03662669658660889,0.46308934688568115,0.8331539630889893,3.0,,,,,
+top_item,,,Parent health,Health (caregiver report),,,,,,1.0,P_PPHY1B00,0.016961432993412018,0.46308934688568115,[운동시간]-지난 일주일 간 땀이 날 정도로 운동한 시간
+top_item,,,Parent health,Health (caregiver report),,,,,,2.0,P_PPHY2A00,0.007110282313078642,0.19412840902805328,[키]-키
+top_item,,,Parent health,Health (caregiver report),,,,,,3.0,P_PPHY2B00,0.006443963386118412,0.1759362369775772,[몸무게]-몸무게
+group,,,Parenting stress,Caregiver psychological traits,58.0,0.4170418083667755,0.12387669831514359,0.28037628531455994,26.0,,,,,
+top_item,,,Parenting stress,Caregiver psychological traits,,,,,,1.0,P_PPSY2A04,0.051661763340234756,0.12387669831514359,[행복감]-전반적으로 아주 불행한 사람들이 있다. 나는 …
+top_item,,,Parenting stress,Caregiver psychological traits,,,,,,2.0,P_PPSY4A27,0.03807259723544121,0.09129203855991364,"[창의적 성격]-기지가 있는 (재치있는, 임기응변의)"
+top_item,,,Parenting stress,Caregiver psychological traits,,,,,,3.0,P_PPSY5A05,0.027194267138838768,0.06520753353834152,[그릿(Grit)]-나는 자주 목표를 세우지만 그것을 이루기 전에 다른 목표를 세우고는 한다
+group,,,Parent school involvement,Parental educational attainment,3.0,0.13963009417057037,0.7107446789741516,1.0,2.0,,,,,
+top_item,,,Parent school involvement,Parental educational attainment,,,,,,1.0,P_PSCHOOL2,0.09924134612083435,0.7107446789741516,[최종학력]-어머니
+top_item,,,Parent school involvement,Parental educational attainment,,,,,,2.0,P_PSCHOOL3,0.02566804736852646,0.1838289052248001,[최종학력]-보호자
+top_item,,,Parent school involvement,Parental educational attainment,,,,,,3.0,P_PSCHOOL1,0.014720698818564415,0.10542640835046768,[최종학력]-아버지
+group,,,Parent work hours,Parental work hours,3.0,0.01381802000105381,0.9601657390594482,1.0,1.0,,,,,
+top_item,,,Parent work hours,Parental work hours,,,,,,1.0,P_PWORKW2,0.01326758973300457,0.9601657390594482,[주간노동시간]-어머니
+top_item,,,Parent work hours,Parental work hours,,,,,,2.0,P_PWORKW1,0.0005504302098415792,0.03983423113822937,[주간노동시간]-아버지
+top_item,,,Parent work hours,Parental work hours,,,,,,3.0,P_PWORKW3,0.0,0.0,[주간노동시간]-보호자
+group,,,Mother info,Adolescent birth date (caregiver report),2.0,0.03347935155034065,0.9000035524368286,1.0,1.0,,,,,
+top_item,,,Mother info,Adolescent birth date (caregiver report),,,,,,1.0,P_PYBRT1A,0.030131535604596138,0.9000035524368286,학생 생년
+top_item,,,Mother info,Adolescent birth date (caregiver report),,,,,,2.0,P_PYBRT1B,0.0033478152472525835,0.099996417760849,학생 생월
+group,,,After-school activity,After-school activity,13.0,0.07342366129159927,0.2493579238653183,0.5382454991340637,8.0,,,,,
+top_item,,,After-school activity,After-school activity,,,,,,1.0,YACT2A01,0.018308771774172783,0.2493579238653183,[연간 참여 횟수]-교내 공식 동아리
+top_item,,,After-school activity,After-school activity,,,,,,2.0,YACT1A04,0.012461496517062187,0.16972044110298157,[연간 참여 횟수]-자원봉사 활동
+top_item,,,After-school activity,After-school activity,,,,,,3.0,YACT1A02,0.008749687112867832,0.11916713416576385,[연간 참여 횟수]-과학정보 활동
+group,,,Delinquency,Delinquency,30.0,0.0481133759021759,0.21628263592720032,0.5899268388748169,6.0,,,,,
+top_item,,,Delinquency,Delinquency,,,,,,1.0,YDLQ1A02,0.010406088083982468,0.21628263592720032,[현실비행 경험 유무 및 빈도]-술 마시기
+top_item,,,Delinquency,Delinquency,,,,,,2.0,YDLQ2A15,0.00964527577161789,0.2004697322845459,[사이버비행 경험 유무 및 빈도]-대화방에 일부러 상대방을 초대하지 않거나 댓글이나 말을 무시한 적이 있다
+top_item,,,Delinquency,Delinquency,,,,,,3.0,YDLQ2A02,0.008332006633281708,0.1731744408607483,[사이버비행 경험 유무 및 빈도]-누군가에 대한 욕이나 나쁜 소문을 다른 사람들에게 퍼뜨린 적이 있다
+group,,,School engagement,School life and relationships,28.0,0.13968293368816376,0.13834334909915924,0.2599521279335022,18.0,,,,,
+top_item,,,School engagement,School life and relationships,,,,,,1.0,YEDU2A09,0.019324205815792084,0.13834334909915924,[친구관계]-친구들과 의견 충돌이 잦다
+top_item,,,School engagement,School life and relationships,,,,,,2.0,YEDU3A11,0.00850015226751566,0.06085319072008133,[교사관계]-선생님은 내가 공부하면서 부족한 부분이 있으면 개별적으로 보충해주신다
+top_item,,,School engagement,School life and relationships,,,,,,3.0,YEDU3A07,0.008486520498991013,0.06075559929013252,[교사관계]-선생님은 내가 책임과 의무를 다하는 학생이라고 생각하신다
+group,,,Family relationship,Perceived parenting,28.0,0.28739282488822937,0.11531201750040054,0.33596211671829224,13.0,,,,,
+top_item,,,Family relationship,Perceived parenting,,,,,,1.0,YFAM2E01,0.033139847218990326,0.11531201750040054,"[구조제공]-내가 무언가 하려고 할 때, 부모님이 어떻게 하라고 가르쳐 주신다"
+top_item,,,Family relationship,Perceived parenting,,,,,,2.0,YFAM2A02,0.03293242305517197,0.11459027230739594,[따스함]-부모님은 나와 함께 있는 것을 좋아하신다
+top_item,,,Family relationship,Perceived parenting,,,,,,3.0,YFAM2A01,0.030480828136205673,0.10605981200933456,[따스함]-부모님이 나를 사랑한다는 것을 표현하신다
+group,,,Career orientation,Career orientation,10.0,0.0594085268676281,0.3406122922897339,0.5710979700088501,6.0,,,,,
+top_item,,,Career orientation,Career orientation,,,,,,1.0,YFUR2A06,0.020235273987054825,0.3406122922897339,[진로 관련 대화 빈도]-상담교사
+top_item,,,Career orientation,Career orientation,,,,,,2.0,YFUR2A07,0.008056899532675743,0.13561856746673584,[진로 관련 대화 빈도]-학원/과외 선생님
+top_item,,,Career orientation,Career orientation,,,,,,3.0,YFUR1B00,0.005635916721075773,0.09486713260412216,[장래직업 결정여부]-장래 희망직업 결정 여부
+group,,,Smartphone use,Academic engagement and achievement,34.0,0.4274444580078125,0.3031828701496124,0.4881083369255066,15.0,,,,,
+top_item,,,Smartphone use,Academic engagement and achievement,,,,,,1.0,YINT2A08,0.1295938342809677,0.3031828701496124,[학업 열의]-아침에 일어나면 수업 들으러 학교에 가고 싶다
+top_item,,,Smartphone use,Academic engagement and achievement,,,,,,2.0,YINT1B00,0.04727553203701973,0.11060041189193726,[학업성취 만족도]-지난 학기 학교성적 만족 수준
+top_item,,,Smartphone use,Academic engagement and achievement,,,,,,3.0,YINT2B05,0.03176983818411827,0.0743250697851181,[학업 무기력]-공부에 신경 쓰고 싶지 않다
+group,,,Device access,Smartphone use by purpose,13.0,0.17924834787845612,0.3459978401660919,0.6447807550430298,7.0,,,,,
+top_item,,,Device access,Smartphone use by purpose,,,,,,1.0,YMDA1B08,0.06201954185962677,0.3459978401660919,[사용 목적별 빈도]-TV 및 동영상 시청
+top_item,,,Device access,Smartphone use by purpose,,,,,,2.0,YMDA1B01,0.04353489726781845,0.24287474155426025,[사용 목적별 빈도]-가족과의 통화
+top_item,,,Device access,Smartphone use by purpose,,,,,,3.0,YMDA1B09,0.010021445341408253,0.05590815842151642,[사용 목적별 빈도]-음악 감상
+group,,,Physical health,Physical health,5.0,0.048493046313524246,0.36753326654434204,0.8066465258598328,3.0,,,,,
+top_item,,,Physical health,Physical health,,,,,,1.0,YPHY1C00,0.017822807654738426,0.36753326654434204,[아침식사 횟수]-지난 일주일 간 아침식사를 한 날
+top_item,,,Physical health,Physical health,,,,,,2.0,YPHY2B00,0.013533947989344597,0.2790904939174652,[몸무게]-몸무게
+top_item,,,Physical health,Physical health,,,,,,3.0,YPHY2A00,0.007759993430227041,0.1600228101015091,[키]-키
+group,,,Self-esteem,Life satisfaction,5.0,0.06103495508432388,0.525987446308136,0.8772756457328796,3.0,,,,,
+top_item,,,Self-esteem,Life satisfaction,,,,,,1.0,YPSY1A02,0.03210362046957016,0.525987446308136,[삶의 만족도]-내 삶의 상황들은 아주 좋다
+top_item,,,Self-esteem,Life satisfaction,,,,,,2.0,YPSY1A04,0.016397427767515182,0.26865634322166443,[삶의 만족도]-지금까지 내 삶에서 내가 원하는 중요한 것들을 이루어 냈다
+top_item,,,Self-esteem,Life satisfaction,,,,,,3.0,YPSY1A05,0.005043431650847197,0.08263185620307922,"[삶의 만족도]-만약 내 삶을 다시 살 수 있더라도, 나는 거의 아무것도 바꾸지 않을 것이다"
+group,,,Depression,Subjective happiness,4.0,0.014253299683332443,0.4587399661540985,0.8855454921722412,3.0,,,,,
+top_item,,,Depression,Subjective happiness,,,,,,1.0,YPSY2A03,0.0065385582856833935,0.4587399661540985,[행복감]-전반적으로 아주 행복한 사람들이 있다. 나는 …
+top_item,,,Depression,Subjective happiness,,,,,,2.0,YPSY2A04,0.003317903960123658,0.23278146982192993,[행복감]-전반적으로 아주 불행한 사람들이 있다. 나는 …
+top_item,,,Depression,Subjective happiness,,,,,,3.0,YPSY2A02,0.0027654829900711775,0.19402405619621277,[행복감]-다른 사람과 비교했을 때 나는 …
+group,,,Social anxiety,Self-esteem,10.0,0.08765973895788193,0.30480486154556274,0.5278422236442566,7.0,,,,,
+top_item,,,Social anxiety,Self-esteem,,,,,,1.0,YPSY3A02,0.026719115674495697,0.30480486154556274,[자아존중감]-때때로 나는 내가 어디에도 소용없는 사람이라고 생각한다
+top_item,,,Social anxiety,Self-esteem,,,,,,2.0,YPSY3A09,0.011546161025762558,0.13171567022800446,[자아존중감]-나는 내가 실패자라고 느끼는 경향이 있다
+top_item,,,Social anxiety,Self-esteem,,,,,,3.0,YPSY3A01,0.008005235344171524,0.09132169187068939,[자아존중감]-나는 나에게 만족한다
+group,,,Psychological well-being,Emotional and behavioral problems,36.0,0.4174245297908783,0.24217520654201508,0.4624045491218567,17.0,,,,,
+top_item,,,Psychological well-being,Emotional and behavioral problems,,,,,,1.0,YPSY4E09,0.10108987241983414,0.24217520654201508,[우울]-장래가 희망적이지 않은 것 같다
+top_item,,,Psychological well-being,Emotional and behavioral problems,,,,,,2.0,YPSY4A07,0.06725617498159409,0.16112175583839417,[주의집중]-글자를 잘 빠뜨리고 쓰는 편이다
+top_item,,,Psychological well-being,Emotional and behavioral problems,,,,,,3.0,YPSY4A06,0.02467294968664646,0.059107571840286255,[주의집중]-공부할 때 차분하게 앉아 있기 힘들다
+group,,,Peer relationship,Cooperation,14.0,0.04549381136894226,0.16275355219841003,0.3601764142513275,10.0,,,,,
+top_item,,,Peer relationship,Cooperation,,,,,,1.0,YPSY5A01,0.007404279429465532,0.16275355219841003,"[협동심]-그룹활동을 할 때, 친구의 장점이나 능력을 적극적으로 알려준다"
+top_item,,,Peer relationship,Cooperation,,,,,,2.0,YPSY5A14,0.004568759351968765,0.10042595118284225,[협동심]-그룹에서 발생한 문제에 대해 잘잘못을 따지기 보다는 해결하려고 노력한다
+top_item,,,Peer relationship,Cooperation,,,,,,3.0,YPSY5A06,0.004412759095430374,0.09699691087007523,"[협동심]-그룹활동을 할 때, 친구가 다양한 관점에서 생각할 수 있도록 도와준다"
+group,,,Self-control,Creative personality,31.0,0.1528313010931015,0.09534989297389984,0.2714102566242218,14.0,,,,,
+top_item,,,Self-control,Creative personality,,,,,,1.0,YPSY6A24,0.0145724480971694,0.09534989297389984,[창의적 성격]-예의바른
+top_item,,,Self-control,Creative personality,,,,,,2.0,YPSY6A10,0.013975733891129494,0.09144549071788788,[창의적 성격]-매사에 조심스러운
+top_item,,,Self-control,Creative personality,,,,,,3.0,YPSY6A09,0.01293179951608181,0.08461486548185349,[창의적 성격]-유머감각이 있는
+group,,,Aggression,Grit,8.0,0.16062557697296143,0.39434197545051575,0.733677864074707,4.0,,,,,
+top_item,,,Aggression,Grit,,,,,,1.0,YPSY7A01,0.0633414089679718,0.39434197545051575,[그릿(Grit)]-나는 무엇을 하다가 다른 생각이 나면 집중하기가 어렵다
+top_item,,,Aggression,Grit,,,,,,2.0,YPSY7A06,0.030819764360785484,0.19187332689762115,[그릿(Grit)]-나는 무엇을 완성하는데 시간이 오래 걸리면 계속 열심히 하는 것이 어렵다
+top_item,,,Aggression,Grit,,,,,,3.0,YPSY7A03,0.023686254397034645,0.14746253192424774,[그릿(Grit)]-나는 어떤 문제에 잠깐 집중하다가 곧 흥미를 잃은 적이 있다
+group,,,Time use,Time use,32.0,0.32545626163482666,0.17431126534938812,0.39198291301727295,15.0,,,,,
+top_item,,,Time use,Time use,,,,,,1.0,YTIM1C02,0.056730691343545914,0.17431126534938812,[수면의 질]-주말_수면의 질
+top_item,,,Time use,Time use,,,,,,2.0,YTIM1K01,0.04133116081357002,0.1269945204257965,[여가시간]-평일_스마트폰을 가지고 노는 시간
+top_item,,,Time use,Time use,,,,,,3.0,YTIM1K02,0.02951143868267536,0.09067712724208832,[여가시간]-주말_스마트폰을 가지고 노는 시간
+frozen_top25,,,SAPS mean score,SAPS mean score,,,,,,,SP_MEAN,0.48157465,,(derived)
+frozen_top25,,,Prior high-risk,Prior high-risk,,,,,,,PREV_HIGH_RISK,0.38018495,,(derived)
+frozen_top25,,,Wave,Wave,,,,,,,WAVE_IDX,0.27828,,(derived)
+frozen_top25,,,SAPS sum score,SAPS sum score,,,,,,,SP_SUM,0.21374503,,(derived)
+frozen_top25,,,SAPS tolerance,SAPS tolerance,,,,,,,SP_TOLERANCE,0.18294671,,(derived)
+frozen_top25,,,Baseline SAPS,Baseline SAPS,,,,,,,SP_SUM_BASELINE,0.15149966,,(derived)
+frozen_top25,,,Parental mediation,Caregiver smartphone use and dependence,,,,,,,P_PMDA1C12,0.14694847,,[의존도]-스마트폰 사용시간을 줄이려고 해보았지만 실패한다
+frozen_top25,,,Daily smartphone use,SAPS adaptive-function disturbance,,,,,,,SP_DAILY,0.14509219,,(derived)
+frozen_top25,,,Smartphone use,Academic engagement and achievement,,,,,,,YINT2A08,0.1318799,,[학업 열의]-아침에 일어나면 수업 들으러 학교에 가고 싶다
+frozen_top25,,,Cohort,Cohort,,,,,,,COHORT_SRC_e4,0.1083371,,(derived)
+frozen_top25,,,Parent school involvement,Parental educational attainment,,,,,,,P_PSCHOOL2,0.10067994,,[최종학력]-어머니
+frozen_top25,,,SAPS withdrawal,SAPS withdrawal,,,,,,,SP_WITHDRAWAL,0.0982957,,(derived)
+frozen_top25,,,Psychological well-being,Emotional and behavioral problems,,,,,,,YPSY4E09,0.0891411,,[우울]-장래가 희망적이지 않은 것 같다
+frozen_top25,,,Device access,Smartphone use by purpose,,,,,,,YMDA1B08,0.07107816,,[사용 목적별 빈도]-TV 및 동영상 시청
+frozen_top25,,,Psychological well-being,Emotional and behavioral problems,,,,,,,YPSY4A07,0.067620695,,[주의집중]-글자를 잘 빠뜨리고 쓰는 편이다
+frozen_top25,,,Father age,Adolescent birth year (household roster),,,,,,,P_PFBRTA1,0.06310425,,[가구 구성원]-가구원 상세1 생년
+frozen_top25,,,Aggression,Grit,,,,,,,YPSY7A01,0.062528186,,[그릿(Grit)]-나는 무엇을 하다가 다른 생각이 나면 집중하기가 어렵다
+frozen_top25,,,Time use,Time use,,,,,,,YTIM1C02,0.061271973,,[수면의 질]-주말_수면의 질
+frozen_top25,,,Parental mediation,Caregiver smartphone use and dependence,,,,,,,P_PMDA1C04,0.056969445,,[의존도]-스마트폰을 사용하느라 지금 하고 있는 일(공부)에 집중이 안 된 적이 있다
+frozen_top25,,,Parental mediation,Caregiver smartphone use and dependence,,,,,,,P_PMDA1C13,0.053454924,,[의존도]-스마트폰을 사용할 때 그만해야지 라고 생각은 하면서도 계속한다
+frozen_top25,,,Smartphone use,Academic engagement and achievement,,,,,,,YINT1B00,0.052221254,,[학업성취 만족도]-지난 학기 학교성적 만족 수준
+frozen_top25,,,Device access,Smartphone use by purpose,,,,,,,YMDA1B01,0.045390055,,[사용 목적별 빈도]-가족과의 통화
+frozen_top25,,,Parenting stress,Caregiver psychological traits,,,,,,,P_PPSY2A04,0.04520977,,[행복감]-전반적으로 아주 불행한 사람들이 있다. 나는 …
+frozen_top25,,,Parenting stress,Caregiver psychological traits,,,,,,,P_PPSY4A27,0.043088112,,"[창의적 성격]-기지가 있는 (재치있는, 임기응변의)"
+frozen_top25,,,Parental mediation,Caregiver smartphone use and dependence,,,,,,,P_PMDA1C14,0.041789327,,[의존도]-스마트폰 사용에 많은 시간을 보내는 것이 습관화되었다

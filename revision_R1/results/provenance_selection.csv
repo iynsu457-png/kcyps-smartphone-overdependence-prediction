@@ -1,0 +1,6 @@
+classifier,mechanism,n_features,n_used,pct_used,n_dropped,note
+Elastic-net Logistic Regression,L1-L2 penalty shrinks coefficients,455,26,5.714285714285714,429,coefficients exactly zero are genuinely removed
+Random Forest,max_features subsamples split candidates,455,454,99.78021978021978,1,nothing is removed; every feature remains available at every split
+Extra Trees,max_features subsamples split candidates,455,454,99.78021978021978,1,nothing is removed; every feature remains available at every split
+XGBoost,"depth, gamma and shrinkage limit splits",455,450,98.9010989010989,5,features with no split gain are effectively unused
+LightGBM,"depth, gamma and shrinkage limit splits",455,449,98.68131868131869,6,features with no split gain are effectively unused

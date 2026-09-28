@@ -1,0 +1,45 @@
+scale,mean_abs_SHAP,group,rank,share_pct
+Parental mediation,0.6408720754261594,"Psychosocial, behavioral, family, or demographic",1,10.339437096560511
+SAPS mean score (wave t),0.4815746545791626,SAPS-derived,2,7.769430186216324
+Smartphone use,0.4280208084965125,"Psychosocial, behavioral, family, or demographic",3,6.905425271534653
+Psychological well-being,0.4224044310394674,"Psychosocial, behavioral, family, or demographic",4,6.814814081479222
+Parenting stress,0.4055527393356897,"Psychosocial, behavioral, family, or demographic",5,6.5429392206094015
+Prior-wave high-risk classification,0.3801849484443664,SAPS-derived,6,6.133670837328503
+Time use,0.3527375167468562,"Psychosocial, behavioral, family, or demographic",7,5.690850804469628
+Family relationship,0.2855764494743198,"Psychosocial, behavioral, family, or demographic",8,4.6073153267528
+Transition index (study design),0.2782799899578094,Study design,9,4.4895987229385454
+SAPS sum score (wave t),0.2137450277805328,SAPS-derived,10,3.448431214559967
+Device access,0.1941358181647956,"Psychosocial, behavioral, family, or demographic",11,3.1320682505466526
+SAPS tolerance,0.1829467117786407,SAPS-derived,12,2.951550069021201
+Aggression,0.1634045576211065,"Psychosocial, behavioral, family, or demographic",13,2.6362689366536327
+Baseline SAPS,0.1514996588230133,SAPS-derived,14,2.444202599261802
+SAPS disturbance of adaptive functions,0.1450921893119812,SAPS-derived,15,2.3408284150872274
+School engagement,0.1415188467362895,"Psychosocial, behavioral, family, or demographic",16,2.283178297064442
+Parent school involvement,0.1371372286230325,"Psychosocial, behavioral, family, or demographic",17,2.212487957134986
+Self-control,0.132691204387811,"Psychosocial, behavioral, family, or demographic",18,2.140758528326143
+Cohort source (study design),0.1083370968699455,Study design,19,1.7478442910247316
+SAPS withdrawal,0.0982957035303115,SAPS-derived,20,1.585842608039982
+Social anxiety,0.0885086695197969,"Psychosocial, behavioral, family, or demographic",21,1.4279446025038156
+After-school activity,0.0776587407453917,"Psychosocial, behavioral, family, or demographic",22,1.2528985045902392
+Career orientation,0.0644300627172924,"Psychosocial, behavioral, family, or demographic",23,1.0394751248131873
+Father age,0.0631042495369911,"Psychosocial, behavioral, family, or demographic",24,1.0180852679210755
+Father info,0.0629989658482372,"Psychosocial, behavioral, family, or demographic",25,1.0163866854443138
+Self-esteem,0.0576345091685652,"Psychosocial, behavioral, family, or demographic",26,0.9298398307388567
+Parent education involvement,0.0479302518069744,"Psychosocial, behavioral, family, or demographic",27,0.7732772928996448
+Delinquency,0.0475144412230292,"Psychosocial, behavioral, family, or demographic",28,0.7665688599039856
+Peer relationship,0.0473467059200629,"Psychosocial, behavioral, family, or demographic",29,0.7638627213774484
+Physical health,0.0463735659141093,"Psychosocial, behavioral, family, or demographic",30,0.7481626772289918
+Mother info,0.0463043712079525,"Psychosocial, behavioral, family, or demographic",31,0.7470463322684978
+Parent health,0.0423843002645298,"Psychosocial, behavioral, family, or demographic",32,0.6838023113667889
+Household income,0.0375928899738937,"Psychosocial, behavioral, family, or demographic",33,0.6065006357228597
+Parent-reported family,0.0353653831225528,"Psychosocial, behavioral, family, or demographic",34,0.5705634060405057
+SAPS virtual-life,0.0190558787435293,SAPS-derived,35,0.3074358630111775
+Depression,0.0159226731630042,"Psychosocial, behavioral, family, or demographic",36,0.2568866453862878
+Birth year,0.0156812611967325,"Psychosocial, behavioral, family, or demographic",37,0.2529918527508568
+Parent work hours,0.0149944756412878,"Psychosocial, behavioral, family, or demographic",38,0.24191167572079203
+SAPS change from baseline,0.0083902701735496,SAPS-derived,39,0.1353634742547918
+SAPS slope,0.0079455208033323,SAPS-derived,40,0.12818816062603233
+Birth month,0.0028060793410986,"Psychosocial, behavioral, family, or demographic",41,0.045271563464446524
+Household size,0.0024449073243886,"Psychosocial, behavioral, family, or demographic",42,0.03944463560941751
+Sex,0.0016999734798446,"Psychosocial, behavioral, family, or demographic",43,0.02742632973824976
+Twin,0.0002307532849954,"Psychosocial, behavioral, family, or demographic",44,0.0037228320073832495

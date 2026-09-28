@@ -1,0 +1,8 @@
+{
+  "XGBoost": 0.3,
+  "LightGBM": 0.09999999999999999,
+  "CatBoost": 0.24000000000000002,
+  "RandomForest": 0.45,
+  "ExtraTrees": 0.47000000000000003,
+  "LogRegEN": 0.93
+}
