@@ -19,13 +19,24 @@ pipeline/01_data/raw/KCYPS2018m1[SPSS]/*.sav
 pipeline/01_data/raw/KCYPS2018e4[SPSS]/*.sav
 ```
 
-and run `pipeline/02_code/build_transitions.py` to construct the analytic file.
+and run `pipeline/02_code/build_transitions.py` to construct the analytic file,
+then `pipeline/02_code/ml_pipeline_final.py` to fit the models and write the
+held-out predictions to `pipeline/01_data/test_predictions.csv`.
+
+The analytic file and the held-out predictions are not distributed here. Both are
+individual-level records derived from KCYPS 2018, and the National Youth Policy
+Institute reserves the copyright in the data and prohibits transferring it or
+copying any part of it into separate files. Scripts that read
+`test_predictions.csv` therefore require the two steps above to be run first; the
+aggregate results those scripts produce are included in `pipeline/03_results` and
+`revision_R1/results`, so the reported values can be checked without rerunning
+anything.
 
 ## Layout
 
 ```
 pipeline/01_data     feature list, SAPS banding counts by grade
-pipeline/02_code     model pipeline, performance metrics, SHAP
+pipeline/02_code     model pipeline, performance metrics, SHAP, figures
 pipeline/03_results  reported aggregate results
 revision_R1/code     additional analyses requested in review
 revision_R1/results  their aggregate outputs
@@ -38,11 +49,11 @@ comment, covering calibration, precision-recall, outcome-spectrum sensitivity,
 subgroup performance, incremental value over the SAPS score and the supplementary
 tables. The two are kept apart so that the originally reported results stay
 distinguishable from what was added later; nothing in `pipeline` was refitted.
-Plotting code is not included; the figures are drawn from the result files here.
 
 ## Running
 
-Python 3.11, `pip install -r requirements.txt`.
+Python 3.11.4, `pip install -r requirements.txt`. The pinned versions are those
+used for the reported results.
 
 | Script | Output |
 |---|---|
@@ -50,13 +61,20 @@ Python 3.11, `pip install -r requirements.txt`.
 | `pipeline/02_code/ml_pipeline_final.py` | six classifiers, hyperparameter search, thresholds, held-out predictions |
 | `pipeline/02_code/extract_table2.py` | Table 1 |
 | `pipeline/02_code/recompute_metrics_cluster_bootstrap.py` | Tables 2 and 3 |
-| `pipeline/02_code/recompute_shap_xgboost.py` | SHAP values |
+| `pipeline/02_code/recompute_shap_xgboost.py` | SHAP values, Figures 4 and 5 |
+| `pipeline/02_code/generate_figure1.py` | Figure 1 |
+| `pipeline/02_code/make_figure2_roc.py` | Figure 2 |
+| `pipeline/02_code/generate_figure4_pertransition.py` | Figure 3 |
 
 `revision_R1/code` holds one script per review analysis: outcome-spectrum
 sensitivity, model and threshold selection, calibration and decision curves,
 precision-recall, incremental value over the SAPS score, data provenance,
 encoding, dimensionality reduction, sample size, learning curves, grouped
-importance, subgroup performance and participant flow.
+importance, subgroup performance and participant flow. The revised figures are
+drawn by `make_figure1_v2.py` (Figure 1), `make_figure3_v2.py` (Figure 3),
+`make_figures45_v2.py` (Figures 4 and 5), `performance_calibration.py` (Figure 6),
+`make_figure7.py` (Figure 7), `pr_analysis.py` (Figure 8) and
+`make_figure_s1_lc.py` (Supplementary Figure S1).
 
 Some scripts consume intermediates written by others, so within `revision_R1`
 run `build_fullspectrum.py`, `performance_calibration.py` and

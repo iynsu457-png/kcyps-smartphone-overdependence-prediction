@@ -5,6 +5,7 @@ pipeline/01_data/test_predictions.csv
 *.sav
 *.pkl
 *.npy
+!pipeline/03_results/cluster_bootstrap_results.pkl
 *.xlsx
 fs_test_probabilities.json
 
