@@ -1,0 +1,21 @@
+{
+  "title": "Analysis code for predicting next-wave high-risk smartphone overdependence in Korean adolescents (KCYPS 2018)",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Song, Dahyun",
+      "affiliation": "Department of Digital Healthcare, College of Health and Medical Science, Daejeon University, Daejeon, Republic of Korea"
+    },
+    {
+      "name": "Lee, Youn-Soo",
+      "affiliation": "Department of Digital Healthcare, College of Health and Medical Science, Daejeon University, Daejeon, Republic of Korea"
+    },
+    {
+      "name": "Youn, Bo-Young",
+      "affiliation": "Department of Healthcare Management, College of Health and Medical Science, Daejeon University, Daejeon, Republic of Korea"
+    }
+  ],
+  "description": "Analysis code and aggregate results for a longitudinal prediction study using the Korean Children and Youth Panel Survey 2018. Predictors measured at grade t estimate high-risk Smartphone Addiction Proneness Scale classification at grade t+1 across the Grade 7 to Grade 10 transitions. Individual-level records derived from KCYPS 2018 are not distributed.",
+  "keywords": ["adolescent", "smartphone overdependence", "machine learning", "risk prediction", "KCYPS"]
+}

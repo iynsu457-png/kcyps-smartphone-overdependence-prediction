@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it as below.
+title: >-
+  Analysis code for predicting next-wave high-risk smartphone overdependence in
+  Korean adolescents (KCYPS 2018)
+type: software
+license: MIT
+repository-code: >-
+  https://github.com/iynsu457-png/kcyps-smartphone-overdependence-prediction
+authors:
+  - family-names: Song
+    given-names: Dahyun
+    affiliation: >-
+      Department of Digital Healthcare, College of Health and Medical Science,
+      Daejeon University, Daejeon, Republic of Korea
+  - family-names: Lee
+    given-names: Youn-Soo
+    affiliation: >-
+      Department of Digital Healthcare, College of Health and Medical Science,
+      Daejeon University, Daejeon, Republic of Korea
+  - family-names: Youn
+    given-names: Bo-Young
+    affiliation: >-
+      Department of Healthcare Management, College of Health and Medical Science,
+      Daejeon University, Daejeon, Republic of Korea

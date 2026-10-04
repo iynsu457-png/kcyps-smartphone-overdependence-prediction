@@ -1,5 +1,7 @@
 # Predicting next-wave high-risk smartphone overdependence in Korean adolescents
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23131942.svg)](https://doi.org/10.5281/zenodo.23131942)
+
 Analysis code for a longitudinal prediction study using the Korean Children and
 Youth Panel Survey (KCYPS) 2018. Predictors measured at grade *t* estimate
 high-risk Smartphone Addiction Proneness Scale (SAPS) classification at grade
@@ -93,6 +95,11 @@ versions.
 Reviewed by the Institutional Review Board of Daejeon University and determined
 exempt as secondary analysis of publicly available de-identified data
 (IRB No. 1040647-202604-HR-001-03).
+
+## Citation
+
+Archived at <https://doi.org/10.5281/zenodo.23131942>, which always resolves to the
+latest version. See `CITATION.cff`.
 
 ## Licence
 
